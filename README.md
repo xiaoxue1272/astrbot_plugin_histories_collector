@@ -1,4 +1,4 @@
-# astrbot_plugin_data_collector
+# astrbot_plugin_histories_collector
 
 ### Astrbot 群消息收集器-QQ(ES版)
 
@@ -9,4 +9,5 @@
 由于Astrbot本身的限制及与napcat的适配  
 
 导致与我对其实现效果不太满意  
+
 
