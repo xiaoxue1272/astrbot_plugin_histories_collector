@@ -1,0 +1,5 @@
+name: astrbot_plugin_histories_collector # 这是你的插件的唯一识别名。
+desc: Astrbot 群消息收集器-QQ(ES版) # 插件简短描述
+version: v0.1.0-SNAPSHOT # 插件版本号。格式：v1.1.1 或者 v1.1
+author: xiaoxue1272 # 作者
+repo: https://github.com/xiaoxue1272/astrbot_plugin_histories_collector # 插件的仓库地址

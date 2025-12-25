@@ -1,0 +1,36 @@
+{
+  "enable_groups": {
+    "description": "群组",
+    "type": "list",
+    "hint": "启用此功能的群组(群号)",
+    "default": []
+  },
+  "index_prefix": {
+    "description": "索引名前缀",
+    "type": "string",
+    "default": "qq_message_histories"
+  },
+  "es_config": {
+    "description": "elasticsearch配置",
+    "type": "object",
+    "items": {
+      "hosts": {
+        "description": "主机(集群)地址",
+        "type": "list",
+        "hint": "es主机(集群)的url集合",
+        "obvious_hint": true,
+        "default": [
+          "http://localhost:9200"
+        ]
+      },
+      "user": {
+        "description": "用户名",
+        "type": "string"
+      },
+      "password": {
+        "description": "密码",
+        "type": "string"
+      }
+    }
+  }
+}

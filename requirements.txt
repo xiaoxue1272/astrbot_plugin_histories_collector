@@ -1,0 +1,2 @@
+elasticsearch[async]==8.19.3
+snowflake-id==1.0.2
